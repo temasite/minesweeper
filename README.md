@@ -10,7 +10,7 @@ This is a classic Minesweeper game developed using **Cursor (Claude 3.7-Sonnet)*
 
 
 
-**Play the game here:** [Minesweeper on eartm.ru](https://temasite.ru/minesweeper)
+**Play the game here:** [https://temasite.github.io/minesweeper/](https://temasite.github.io/minesweeper/)
 
 
 
@@ -20,7 +20,7 @@ This is a classic Minesweeper game developed using **Cursor (Claude 3.7-Sonnet)*
 
 ## **How to Play**
 
-1. Visit the game page: [eartm.ru/minesweeper](https://temasite.ru/minesweeper)
+1. Visit the game page: [https://temasite.github.io/minesweeper/](https://temasite.github.io/minesweeper/)
 
 2. Click on a tile to reveal it:
 
