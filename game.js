@@ -53,6 +53,10 @@ function init() {
             adjustBoardSize();
         }
     }, 250));
+
+    document.addEventListener('dblclick', (event) => {
+        event.preventDefault();
+    })
 }
 
 // Select difficulty and start game
