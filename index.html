@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapper Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Sapper</h1>
+            <div class="game-info">
+                <div class="mines-counter">Mines: <span id="mines-count">0</span></div>
+                <div class="timer">Time: <span id="timer">0</span></div>
+                <button id="new-game-btn">New Game</button>
+            </div>
+        </header>
+        
+        <div id="difficulty-modal" class="modal">
+            <div class="modal-content">
+                <h2>Select Difficulty</h2>
+                <button id="easy-btn" class="difficulty-btn">Easy</button>
+                <button id="medium-btn" class="difficulty-btn">Medium</button>
+                <button id="hard-btn" class="difficulty-btn">Hard</button>
+            </div>
+        </div>
+        
+        <div class="board-wrapper">
+            <div id="game-board" class="game-board"></div>
+        </div>
+        
+        <div id="game-over-modal" class="modal hidden">
+            <div class="modal-content">
+                <h2 id="game-result">Game Over</h2>
+                <p>Your time: <span id="final-time">0</span> seconds</p>
+                <button id="play-again-btn">Play Again</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="settings.js"></script>
+    <script src="game.js"></script>
+</body>
+</html> 
